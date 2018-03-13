@@ -11,7 +11,8 @@ require 'pry'
 def get_the_values(groceries)
   #code your solution here!
   flat_array =[]
-  for groceries.values.each do |value|
+  nested_array = groceries.values
+  for nested_array.each do |value|
     flat_array << value
   end
 end
