@@ -10,6 +10,8 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-  binding.pry
-  groceries.values
+  flat_array =[]
+  for groceries.values.each do |value|
+    flat_array << value
+  end
 end
